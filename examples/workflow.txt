@@ -1,0 +1,16 @@
+1. Onboarding new projects
+
+"DC-PE/renovate-fe-demo",
+"DC-PE/renovate-demo"
+
+2. Each dependency as a separate PR
+
+separate-PR.json
+
+3. Grouping dependencies
+
+group-by-version.json
+
+4. Match versions
+
+spring-boot-2.3.x.json
