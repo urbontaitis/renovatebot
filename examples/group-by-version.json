@@ -1,0 +1,34 @@
+{    
+    "packageRules": [        
+        {
+            "groupName": "non-major",
+            "groupSlug": "non-major-dependencies",
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ]
+        },
+        {
+            "groupName": "MAJOR",
+            "groupSlug": "major-dependencies",
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ]
+        },
+        {
+            "registryUrls": [
+                
+            ],
+            "matchManagers": [
+                "maven",
+                "npm"
+            ]
+        }
+    ]
+}

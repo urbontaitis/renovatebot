@@ -1,0 +1,50 @@
+{
+    "platform": "bitbucket-server",
+    "endpoint": "",
+    "username": "",
+    "password": "",
+    "gitAuthor": "",
+    "autodiscover": false,    
+    "prCommitsPerRunLimit": 10,
+    "commitMessagePrefix": "JIRA-TICKET:",
+    "repositories": [  
+        
+    ],
+    "onboardingConfig": {
+        "maven": {
+            "enabled": true
+        },
+        
+        "packageRules": [
+            {
+                "groupName": "non-major",
+                "groupSlug": "non-major-dependencies",
+                "matchPackagePatterns": [
+                    "*"
+                ],
+                "matchUpdateTypes": [
+                    "patch",
+                    "minor"
+                ]
+            },
+            {
+                "groupName": "MAJOR",
+                "groupSlug": "major-dependencies",
+                "matchPackagePatterns": [
+                    "*"
+                ],
+                "matchUpdateTypes": [
+                    "major"
+                ]
+            },
+            {
+                "registryUrls": [
+                ],
+                "matchManagers": [
+                    "maven",
+                    "npm"
+                ]
+            }
+        ]
+    }
+}
