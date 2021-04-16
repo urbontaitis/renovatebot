@@ -1,0 +1,13 @@
+{    
+    "packageRules": [        
+        {
+            "registryUrls": [
+                
+            ],
+            "matchManagers": [
+                "maven",
+                "npm"
+            ]
+        }
+    ]
+}
