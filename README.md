@@ -7,7 +7,7 @@ Renovatebot demo using bitbucket server
 ## Install renovate
 
 ```bash
-npm i -g renovate@18.16.20
+npm i -g renovate
 ```
 
 ## Update config.json:
