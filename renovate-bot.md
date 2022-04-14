@@ -50,7 +50,7 @@ h6 {
 
 * Outdoor activities
   * My biggest 🚴‍♂️ achievement [Paris - Brest - Paris 2019](https://www.strava.com/activities/2674219873)
-  * My 📸 [365 days](https://wwww.instagram.com/murbo_) challenge
+  * My 📸 [365 days](https://www.instagram.com/m.urbo/) challenge
 
 ---
 
